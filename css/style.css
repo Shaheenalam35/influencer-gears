@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 30px;
   margin-bottom: 50px;
@@ -88,7 +88,8 @@ nav {
   padding: 10px;
 }
 .banner-right img {
-  widows: 100%;
+  width: 80%;
+  margin-left: 40px;
 }
 
 .banner-right:hover {
@@ -105,6 +106,8 @@ nav {
 .banner-detail {
   padding: 10px;
   margin-bottom: 15px;
+  font-size: 19px;
+  line-height: 1.4;
 }
 
 .btn {
@@ -227,5 +230,135 @@ nav {
   border: 1px solid purple;
   justify-content: center;
 }
-
+#btn {
+  text-align: center;
+}
 /* ------------------Sign Up  part style End-------------*/
+
+/* ------------------Footer part style Start-------------*/
+footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  padding: 50px;
+}
+
+footer h2 {
+  font-size: 26px;
+  color: whitesmoke;
+  padding: 5px;
+  margin-bottom: 8px;
+}
+.footer-detail {
+  font-size: 0.7em;
+  color: rgba(255, 255, 255, 0.863);
+  margin-bottom: 6px;
+}
+
+.social-icons {
+  font-size: 1.3em;
+}
+
+.social-icons i {
+  background-color: rgb(105, 102, 98);
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+/* ------------------Footer part style End-------------*/
+
+/* ------------------ style for Responsive start-------------*/
+
+@media (max-width: 688px) {
+  nav {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    justify-content: center;
+  }
+  .product {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .nav-bar {
+    background-color: rgb(218, 179, 212);
+    align-items: center;
+  }
+  .banner {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .banner-right:hover {
+    transform: scale(1.2);
+    transition: 2s ease-in-out 200ms;
+  }
+  .compnany-logo {
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  hr {
+    margin-top: 13px;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    grid-gap: 40px;
+  }
+  .card-item {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .rating {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 992px) {
+  nav {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    justify-content: center;
+  }
+  .product {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.63);
+  }
+  .nav-bar {
+    background-color: rgb(218, 179, 212);
+    align-items: center;
+    padding: 10px 0;
+  }
+  .banner {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .banner-right:hover {
+    transform: scale(1.2);
+    transition: 2s ease-in-out 200ms;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    grid-gap: 40px;
+  }
+  .card-item {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .rating {
+    justify-content: center;
+  }
+}
+
+/* ------------------ style for Responsiveness End-------------*/
