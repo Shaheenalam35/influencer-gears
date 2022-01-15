@@ -293,7 +293,7 @@ footer h2 {
     margin-bottom: 40px;
   }
   .banner-right:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 2s ease-in-out 200ms;
   }
   .compnany-logo {
@@ -343,7 +343,7 @@ footer h2 {
     margin-bottom: 40px;
   }
   .banner-right:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 2s ease-in-out 200ms;
   }
   .card {
