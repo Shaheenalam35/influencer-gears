@@ -284,6 +284,7 @@ footer h2 {
   .nav-bar {
     background-color: rgb(218, 179, 212);
     align-items: center;
+    justify-content: space-between;
   }
   .banner {
     display: grid;
@@ -334,6 +335,7 @@ footer h2 {
     background-color: rgb(218, 179, 212);
     align-items: center;
     padding: 10px 0;
+    justify-content: space-between;
   }
   .banner {
     display: grid;
